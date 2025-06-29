@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="dynamic-title">30 messages automatisés qui génèrent du chiffre en 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen">
+    <!-- Hero Section -->
+    <section class="hero-section py-16 px-6">
+        <div class="container max-w-4xl mx-auto text-center flex flex-col items-center">
+            <div class="flex items-center justify-center mb-4">
+                <h1 id="dynamic-h1" class="text-4xl md:text-5xl font-bold mb-0 text-white text-left">
+                    🎁 CADEAU offert à <span id="client-dynamic"></span>par Kays (Sirrtech) – 30 messages automatisés prêts à l'emploi
+                </h1>
+            </div>
+            <!-- Le texte ci-dessus sera personnalisé dynamiquement avec le clientId -->
+            <p class="text-xl md:text-2xl mb-4 text-blue-100">
+                (et que 90 % des boutiques en ligne n'utilisent toujours pas)
+            </p>
+            <p class="text-lg mb-8 text-blue-200 max-w-2xl mx-auto">
+                Découvrez les templates de messages qui transforment vos visiteurs en clients fidèles grâce à l'automatisation intelligente.
+            </p>
+            <div class="text-2xl font-semibold mb-8 text-white">
+                Copiez. Adaptez. Déployez.
+            </div>
+        </div>
+    </section>
+    <!-- Formulaire d'accès -->
+    <section id="leadmagnet-form-section" class="py-12 px-6 bg-gradient-to-b from-blue-50 to-white">
+        <div class="container max-w-lg mx-auto bg-white rounded-2xl shadow-2xl p-10 border border-blue-100">
+            <h2 class="text-2xl font-bold mb-8 text-center text-blue-700 tracking-tight flex items-center justify-center">
+                🔓 Accédez à vos modèles prêts à l’emploi
+            </h2>
+            <form id="leadmagnet-form" class="space-y-6">
+                <div>
+                    <label for="nom" class="block text-gray-800 font-semibold mb-2 tracking-wide">Nom</label>
+                    <input type="text" id="nom" name="nom" required class="w-full border border-blue-200 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-blue-50 placeholder-gray-400 transition">
+                </div>
+                <div>
+                    <label for="prenom" class="block text-gray-800 font-semibold mb-2 tracking-wide">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" required class="w-full border border-blue-200 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-blue-50 placeholder-gray-400 transition">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-800 font-semibold mb-2 tracking-wide">Adresse mail</label>
+                    <input type="email" id="email" name="email" required class="w-full border border-blue-200 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-blue-50 placeholder-gray-400 transition">
+                </div>
+                <div>
+                    <label for="telephone" class="block text-gray-800 font-semibold mb-2 tracking-wide">Numéro de téléphone</label>
+                    <div class="flex gap-2">
+                        <select id="indicatif" name="indicatif" required class="border border-blue-200 rounded-lg px-2 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-blue-50">
+                            <option value="+33">🇫🇷 +33</option>
+                            <option value="+32">🇧🇪 +32</option>
+                            <option value="+41">🇨🇭 +41</option>
+                            <option value="+1">🇺🇸 +1</option>
+                            <option value="+44">🇬🇧 +44</option>
+                            <option value="+49">🇩🇪 +49</option>
+                            <option value="+212">🇲🇦 +212</option>
+                            <option value="+216">🇹🇳 +216</option>
+                            <option value="+213">🇩🇿 +213</option>
+                        </select>
+                        <input type="tel" id="telephone" name="telephone" required pattern="[0-9\s\-]{9,}" class="flex-1 border border-blue-200 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-blue-50 placeholder-gray-400 transition" placeholder="6 12 34 56 78">
+                    </div>
+                </div>
+                <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-blue-400 text-white font-bold py-3 rounded-xl text-lg shadow-lg hover:from-blue-700 hover:to-blue-500 transition-all duration-200">👉 Accéder aux messages</button>
+            </form>
+        </div>
+    </section>
+    <!-- Categories Section -->
+    <section id="categories-section" class="py-16 px-6 hidden">
+        <div class="container max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">
+                6 catégories de messages qui convertissent
+            </h2>
+            
+            <div class="space-y-6">
+                <!-- Relance panier -->
+                <details class="category-accordion">
+                    <summary class="accordion-summary">
+                        <span class="flex items-center gap-3">
+                            <span class="category-icon">🛒</span>
+                            <span class="font-semibold text-lg">Relance panier</span>
+                        </span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </summary>
+                    <div class="accordion-content">
+                        <div class="message-grid">
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">WhatsApp - Urgence stock</h4>
+                                    <button class="copy-btn" data-copy="Hey {{prenom}}, votre article {{produit}} est presque épuisé ! Finalisez votre commande ici : {{lien}}">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Hey {{prenom}}, votre article {{produit}} est presque épuisé ! Finalisez votre commande ici : {{lien}}</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 1h après abandon panier
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-whatsapp">WhatsApp</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">E-mail - Rappel doux</h4>
+                                    <button class="copy-btn" data-copy="{{prenom}}, votre panier vous attend toujours – et nous gardons {{produit}} au chaud pour vous !">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>{{prenom}}, votre panier vous attend toujours – et nous gardons {{produit}} au chaud pour vous !</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 24h après abandon
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">SMS - Express</h4>
+                                    <button class="copy-btn" data-copy="Dernière chance de récupérer votre {{produit}}, cliquez ici {{lien}}">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Dernière chance de récupérer votre {{produit}}, cliquez ici {{lien}}</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 3 jours après abandon
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-sms">SMS</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Push Web</h4>
+                                    <button class="copy-btn" data-copy="Vous avez laissé quelque chose… Revenez vite !">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Vous avez laissé quelque chose… Revenez vite !</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Notification push 30min après abandon
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-push">Push Web</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Chatbot Onsite</h4>
+                                    <button class="copy-btn" data-copy="Besoin d'aide pour finaliser ? Je peux vous guider conformément à vos préférences">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Besoin d'aide pour finaliser ? Je peux vous guider conformément à vos préférences</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Déclenchement automatique après inactivité
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-chatbot">Chatbot</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- SAV & satisfaction client -->
+                <details class="category-accordion">
+                    <summary class="accordion-summary">
+                        <span class="flex items-center gap-3">
+                            <span class="category-icon">🎧</span>
+                            <span class="font-semibold text-lg">SAV & satisfaction client</span>
+                        </span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </summary>
+                    <div class="accordion-content">
+                        <div class="message-grid">
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">SMS post-appel</h4>
+                                    <button class="copy-btn" data-copy="Nous espérons que votre problème est résolu. Dites-nous si tout est OK {{lien-sondage}}">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Nous espérons que votre problème est résolu. Dites-nous si tout est OK {{lien-sondage}}</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 2h après appel SAV
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-sms">SMS</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">WhatsApp suivi réparation</h4>
+                                    <button class="copy-btn" data-copy="Votre produit est réparé et en route. Suivez-le ici {{lien}}">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Votre produit est réparé et en route. Suivez-le ici {{lien}}</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi au départ du colis
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-whatsapp">WhatsApp</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">E-mail NPS</h4>
+                                    <button class="copy-btn" data-copy="Comment noteriez-vous votre expérience ? Répondez en 30s !">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Comment noteriez-vous votre expérience ? Répondez en 30s !</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 1 semaine après résolution
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Chatbot FAQ</h4>
+                                    <button class="copy-btn" data-copy="Besoin d'assistance supplémentaire ? Je suis là 24/7">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Besoin d'assistance supplémentaire ? Je suis là 24/7</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Disponible en permanence
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-chatbot">Chatbot</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Push feedback</h4>
+                                    <button class="copy-btn" data-copy="Votre avis compte ! Partagez-le en un clic">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Votre avis compte ! Partagez-le en un clic</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 3 jours après achat
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-push">Push Web</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Post-achat intelligent -->
+                <details class="category-accordion">
+                    <summary class="accordion-summary">
+                        <span class="flex items-center gap-3">
+                            <span class="category-icon">📦</span>
+                            <span class="font-semibold text-lg">Post-achat intelligent</span>
+                        </span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </summary>
+                    <div class="accordion-content">
+                        <div class="message-grid">
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Confirmation personnalisée</h4>
+                                    <button class="copy-btn" data-copy="Merci {{prenom}} ! Voici les détails de votre commande…">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Merci {{prenom}} ! Voici les détails de votre commande…</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi immédiat après commande
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Suivi colis WhatsApp</h4>
+                                    <button class="copy-btn" data-copy="Votre colis est en route 🚚 Suivez-le ici">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Votre colis est en route 🚚 Suivez-le ici</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi à l'expédition
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-whatsapp">WhatsApp</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Guide d'usage SMS</h4>
+                                    <button class="copy-btn" data-copy="3 astuces pour profiter au max de {{produit}}">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>3 astuces pour profiter au max de {{produit}}</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi à la livraison
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-sms">SMS</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Avis produit</h4>
+                                    <button class="copy-btn" data-copy="Votre opinion est précieuse, laissez un avis">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Votre opinion est précieuse, laissez un avis</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 1 semaine après livraison
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Push réassort</h4>
+                                    <button class="copy-btn" data-copy="{{produit}} sera bientôt de retour, soyez le premier averti">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>{{produit}} sera bientôt de retour, soyez le premier averti</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi avant rupture de stock
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-push">Push Web</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Retargeting & inactivité -->
+                <details class="category-accordion">
+                    <summary class="accordion-summary">
+                        <span class="flex items-center gap-3">
+                            <span class="category-icon">🎯</span>
+                            <span class="font-semibold text-lg">Retargeting & inactivité</span>
+                        </span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </summary>
+                    <div class="accordion-content">
+                        <div class="message-grid">
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">E-mail visite sans achat</h4>
+                                    <button class="copy-btn" data-copy="On a remarqué votre passage… voici -10%">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>On a remarqué votre passage… voici -10%</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 1 jour après visite
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">WhatsApp lookbook</h4>
+                                    <button class="copy-btn" data-copy="Découvrez les nouveautés qui pourraient vous plaire">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Découvrez les nouveautés qui pourraient vous plaire</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi selon historique de navigation
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-whatsapp">WhatsApp</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">SMS offre flash</h4>
+                                    <button class="copy-btn" data-copy="-20% valable 2h !">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>-20% valable 2h !</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi pour réactiver client inactif
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-sms">SMS</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Push reco IA</h4>
+                                    <button class="copy-btn" data-copy="Des articles faits pour vous">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Des articles faits pour vous</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Recommandations personnalisées
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-push">Push Web</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">E-mail contenu blog</h4>
+                                    <button class="copy-btn" data-copy="3 conseils pour {{besoin}}">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>3 conseils pour {{besoin}}</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi de contenu éducatif
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Ventes croisées intelligentes -->
+                <details class="category-accordion">
+                    <summary class="accordion-summary">
+                        <span class="flex items-center gap-3">
+                            <span class="category-icon">🚀</span>
+                            <span class="font-semibold text-lg">Ventes croisées intelligentes</span>
+                        </span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </summary>
+                    <div class="accordion-content">
+                        <div class="message-grid">
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">E-mail bundle</h4>
+                                    <button class="copy-btn" data-copy="Complétez votre {{produit}} avec cet accessoire">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Complétez votre {{produit}} avec cet accessoire</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi 3 jours après achat
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">WhatsApp recommandé AI</h4>
+                                    <button class="copy-btn" data-copy="Cet article se marie parfaitement">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Cet article se marie parfaitement</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Recommandation IA basée sur l'achat
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-whatsapp">WhatsApp</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">SMS upgrade</h4>
+                                    <button class="copy-btn" data-copy="Passez à la version Pro pour 15% offert">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Passez à la version Pro pour 15% offert</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Proposition d'upgrade
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-sms">SMS</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Push buy-together</h4>
+                                    <button class="copy-btn" data-copy="Ajoutez ces best-sellers">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Ajoutez ces best-sellers</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Suggestion de produits populaires
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-push">Push Web</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">E-mail abonnement</h4>
+                                    <button class="copy-btn" data-copy="Transformez votre achat en abonnement et économisez">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Transformez votre achat en abonnement et économisez</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Proposition d'abonnement récurrent
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Messages de réactivation client -->
+                <details class="category-accordion">
+                    <summary class="accordion-summary">
+                        <span class="flex items-center gap-3">
+                            <span class="category-icon">🔄</span>
+                            <span class="font-semibold text-lg">Messages de réactivation client</span>
+                        </span>
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </summary>
+                    <div class="accordion-content">
+                        <div class="message-grid">
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Win-back</h4>
+                                    <button class="copy-btn" data-copy="Vous nous manquez ! 15% pour votre retour">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Vous nous manquez ! 15% pour votre retour</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Envoi après 3 mois d'inactivité
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Questionnaire feedback</h4>
+                                    <button class="copy-btn" data-copy="Aidez-nous à nous améliorer">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Aidez-nous à nous améliorer</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Demande de feedback pour comprendre l'inactivité
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Offre VIP SMS</h4>
+                                    <button class="copy-btn" data-copy="Accès exclusif à nos nouveautés">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Accès exclusif à nos nouveautés</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Offre exclusive pour clients VIP
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-sms">SMS</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Best-sellers</h4>
+                                    <button class="copy-btn" data-copy="Voici ce qui cartonne actuellement…">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Voici ce qui cartonne actuellement…</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Présentation des produits populaires
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-email">Email</span>
+                                </div>
+                            </div>
+
+                            <div class="message-card">
+                                <div class="message-header">
+                                    <h4 class="message-title">Push retargeting ad</h4>
+                                    <button class="copy-btn" data-copy="Cette annonce est pour vous">
+                                        Copier
+                                    </button>
+                                </div>
+                                <pre class="message-content"><code>Cette annonce est pour vous</code></pre>
+                                <div class="message-context">
+                                    <strong>Contexte optimal :</strong> Retargeting personnalisé
+                                </div>
+                                <div class="message-channels">
+                                    <span class="channel-badge channel-push">Push Web</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus IA Section -->
+    <section class="py-16 px-6 bg-gray-50">
+        <div class="container max-w-4xl mx-auto">
+            <div class="flex items-center mb-8">
+                <img src="avatars/avatar_carnet_todo.png" alt="Avatar sur PC" class="w-28 h-28 mr-4 object-cover" />
+                <h2 class="text-3xl font-bold text-center">
+                    Bonus : Intégrez l'IA dans vos processus e-commerce
+                </h2>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-8 mx-auto max-w-2xl space-y-6">
+                <div class="grid gap-5">
+                    <div class="rounded-xl bg-white shadow-md p-5 border border-blue-50 hover:shadow-lg transition">
+                        🔹 Connexion fluide à vos outils e-commerce (Shopify, WooCommerce, Prestashop...)
+                    </div>
+                    <div class="rounded-xl bg-white shadow-md p-5 border border-blue-50 hover:shadow-lg transition">
+                        🔹 Tableau de bord intelligent : uniquement des indicateurs utiles, pas de bruit inutile 📊
+                    </div>
+                    <div class="rounded-xl bg-white shadow-md p-5 border border-blue-50 hover:shadow-lg transition">
+                        🔹 Relance panier ultra-personnalisée : +20 à +40 % de récupérations 🎯
+                    </div>
+                    <div class="rounded-xl bg-white shadow-md p-5 border border-blue-50 hover:shadow-lg transition">
+                        🔹 Agent conversationnel humanisé avant & après achat 💬
+                    </div>
+                    <div class="rounded-xl bg-white shadow-md p-5 border border-blue-50 hover:shadow-lg transition">
+                        🔹 Recommandations selon l'intention d'achat
+                    </div>
+                </div>
+                <div class="mt-8 text-center text-blue-700 text-xl font-semibold">
+                    🔁 Vous n'avez rien à préparer. On s'occupe de tout.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="rdv" class="py-16 px-6 bg-white">
+        <div class="container max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">
+                Vous voulez que je vous aide à connecter ces messages à votre boutique et les personnaliser avec de l'IA ?
+            </h2>
+            <p class="text-xl text-gray-600 mb-8">
+                Réservez un audit personnalisé de 15 min ici.
+            </p>
+            
+            <div class="mb-8">
+                <button class="btn btn--primary btn--lg">
+                    Prendre RDV
+                </button>
+            </div>
+
+            <div class="calendly-container">
+                <iframe 
+                    src="https://calendly.com/kays-sirrtech/30min?month=2025-06" 
+                    width="100%" 
+                    height="700"
+                    frameborder="0"
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center text-gray-400 text-sm">
+      © 2025 SIRRTECH. Tous droits réservés. | Solution propulsée par <a href="https://www.sirrtech.fr" class="underline hover:text-blue-400">SIRRTECH</a>
+    </footer>
+
+    <!-- Flèches d'incitation au scroll (masquées par défaut) -->
+    <div id="scroll-arrows" class="fixed inset-x-0 bottom-8 flex justify-between px-8 pointer-events-none hidden z-50">
+        <div class="animate-bounce-left text-4xl text-orange-500 opacity-80 select-none">⬇️</div>
+        <div class="animate-bounce-right text-4xl text-orange-500 opacity-80 select-none">⬇️</div>
+    </div>
+
+    <style>
+    @keyframes bounce-left {
+      0%, 100% { transform: translateY(0) translateX(-10px); }
+      50% { transform: translateY(20px) translateX(-10px); }
+    }
+    @keyframes bounce-right {
+      0%, 100% { transform: translateY(0) translateX(10px); }
+      50% { transform: translateY(20px) translateX(10px); }
+    }
+    .animate-bounce-left {
+      animation: bounce-left 1.2s infinite;
+    }
+    .animate-bounce-right {
+      animation: bounce-right 1.2s infinite;
+    }
+    </style>
+
+    <script src="app.js"></script>
+</body>
+</html>
